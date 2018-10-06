@@ -1,0 +1,35 @@
+.page {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background-color: #4d4d4e;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #ffff66;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.actionButton {
+  border: 1px solid #8a5c3d;
+  border-radius: 25px;
+  background-color: #178c05;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
